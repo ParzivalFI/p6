@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/login.js" defer ></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="nav-for-user">
+            <h1><span class="name-of-designer">Sophie Bluel</span><span class="job-of-designer">ARCHITECTE D'INTÉRIEUR</span></h1>
+            <nav>
+                <ul>
+                    <li class="size"><a href="index.html#portfolio">projets</a></li>
+                    <li class="size"><a href="index.html#contact">contact</a></li>
+                    <li>
+                        <a class="only-guest typography-for-login-in-user-page size" href="login.html">login</a>
+                        <a id="nav-logout" class="only-admin size" href="#">logout</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img class="insta-logo" src="./assets/icons/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class= "user-login-formulary">
+                <h2>Log in</h2>
+                <form id="user-login-form" method="post" action="#">
+                    <label class="space-between-label-and-input-in-user-login-formulary" for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                    <label class="space-between-label-and-input-in-user-login-formulary" for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" required>
+                    <input type="submit" id="submit" value="Se connecter">
+                    <a href="#">Mot de passe oublié</a>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
